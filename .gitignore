@@ -29,3 +29,6 @@ Thumbs.db
 # codex/local workspace
 .agents/
 .codex/
+
+# Local Netlify folder
+.netlify
