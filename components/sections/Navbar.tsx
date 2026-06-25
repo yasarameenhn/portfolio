@@ -80,7 +80,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="glass mx-4 mt-3 rounded-2xl p-6 md:hidden">
+        <div className="glass-panel mx-4 mt-3 rounded-2xl p-6 md:hidden">
           <ul className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <li key={link.href}>

@@ -45,7 +45,7 @@ export default function About() {
           </ScrollReveal>
 
           <ScrollReveal className="lg:col-span-5" delay={0.15}>
-            <div className="glass rounded-2xl p-6">
+            <div className="glass-panel rounded-2xl p-6">
               <h3 className="mb-4 font-mono text-xs uppercase tracking-widest text-accent-cyan">
                 Focus Areas
               </h3>
@@ -55,7 +55,7 @@ export default function About() {
                     key={area}
                     className="flex items-center gap-3 text-text-primary"
                   >
-                    <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent-cyan/10 font-mono text-xs text-accent-cyan">
+                    <span className="glass-chip flex h-8 w-8 items-center justify-center rounded-lg font-mono text-xs text-accent-cyan">
                       +
                     </span>
                     <span className="text-sm">{area}</span>

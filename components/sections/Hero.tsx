@@ -31,7 +31,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-20 mx-auto w-full max-w-7xl px-6">
         <div className="max-w-3xl">
-          <span className="mb-6 inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 font-mono text-xs text-accent-cyan">
+          <span className="glass-chip mb-6 inline-flex items-center gap-2 rounded-full px-4 py-1.5 font-mono text-xs text-accent-cyan">
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent-cyan opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-accent-cyan" />

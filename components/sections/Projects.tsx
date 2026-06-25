@@ -23,7 +23,7 @@ export default function Projects() {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group glass flex h-full flex-col rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent-cyan/30"
+                className="group glass-panel flex h-full flex-col rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent-cyan/30"
               >
                 <div className="mb-4 flex items-center justify-between">
                   <span className="font-mono text-xs text-accent-cyan">
@@ -55,7 +55,7 @@ export default function Projects() {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="rounded-md border border-white/10 bg-white/5 px-2.5 py-1 font-mono text-[10px] text-text-secondary"
+                      className="glass-chip rounded-md px-2.5 py-1 font-mono text-[10px] text-text-secondary"
                     >
                       {tag}
                     </span>

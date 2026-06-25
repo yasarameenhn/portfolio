@@ -19,7 +19,7 @@ export default function Experience() {
         <div className="mt-12 max-w-3xl">
           {experience.map((job, i) => (
             <ScrollReveal key={job.company} delay={i * 0.1}>
-              <div className="relative mb-12 border-l border-white/10 pb-8 pl-8 last:mb-0">
+              <div className="glass-panel relative mb-12 rounded-2xl border-l border-white/10 p-6 pl-8 last:mb-0">
                 {/* Timeline dot */}
                 <div className="absolute -left-[7px] top-1 h-3 w-3 rounded-full bg-accent-cyan ring-4 ring-bg-base" />
 
@@ -40,7 +40,7 @@ export default function Experience() {
                   {job.technologies.map((technology) => (
                     <span
                       key={technology}
-                      className="rounded-md border border-white/10 bg-white/5 px-2.5 py-1 font-mono text-[10px] text-text-secondary"
+                      className="glass-chip rounded-md px-2.5 py-1 font-mono text-[10px] text-text-secondary"
                     >
                       {technology}
                     </span>

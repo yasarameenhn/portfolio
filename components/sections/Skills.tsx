@@ -37,7 +37,7 @@ export default function Skills() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {grouped.map((group, i) => (
             <ScrollReveal key={group.category} delay={i * 0.08}>
-              <div className="glass h-full rounded-2xl p-6 transition-transform duration-300 hover:-translate-y-1">
+              <div className="glass-panel h-full rounded-2xl p-6 transition-transform duration-300 hover:-translate-y-1">
                 <h3 className="mb-4 font-mono text-xs uppercase tracking-widest text-accent-cyan">
                   {group.category}
                 </h3>
@@ -45,7 +45,7 @@ export default function Skills() {
                   {group.items.map((skill) => (
                     <li
                       key={skill.name}
-                      className="rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 text-sm text-text-primary transition-colors hover:border-accent-cyan/40 hover:text-accent-cyan"
+                      className="glass-chip rounded-lg px-3 py-1.5 text-sm text-text-primary transition-colors hover:border-accent-cyan/40 hover:text-accent-cyan"
                     >
                       {skill.name}
                     </li>

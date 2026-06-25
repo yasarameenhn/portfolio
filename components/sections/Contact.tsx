@@ -12,7 +12,7 @@ export default function Contact() {
       <SectionBackdrop variant="contact" />
       <div className="relative z-10 mx-auto max-w-7xl px-6">
         <ScrollReveal>
-          <div className="glass relative overflow-hidden rounded-3xl p-10 text-center sm:p-16">
+          <div className="glass-panel rounded-3xl p-10 text-center sm:p-16">
             <SectionHeading
               label={contactContent.label}
               heading={contactContent.heading}
@@ -23,17 +23,17 @@ export default function Contact() {
             <div className="relative mx-auto mt-10 grid max-w-2xl gap-3 text-left">
               <a
                 href={`mailto:${siteConfig.email}`}
-                className="glass rounded-lg px-4 py-3 text-sm text-text-primary transition-colors hover:text-accent-cyan"
+                className="glass-chip rounded-lg px-4 py-3 text-sm text-text-primary transition-colors hover:text-accent-cyan"
               >
                 {siteConfig.email}
               </a>
               <a
                 href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}
-                className="glass rounded-lg px-4 py-3 text-sm text-text-primary transition-colors hover:text-accent-cyan"
+                className="glass-chip rounded-lg px-4 py-3 text-sm text-text-primary transition-colors hover:text-accent-cyan"
               >
                 {siteConfig.phone}
               </a>
-              <p className="glass rounded-lg px-4 py-3 text-sm text-text-primary">
+              <p className="glass-chip rounded-lg px-4 py-3 text-sm text-text-primary">
                 {siteConfig.location}
               </p>
             </div>
