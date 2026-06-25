@@ -40,7 +40,7 @@ export default function Experience() {
                   {job.technologies.map((technology) => (
                     <span
                       key={technology}
-                      className="glass-chip rounded-md px-2.5 py-1 font-mono text-[10px] text-text-secondary"
+                      className="glass-chip tech-chip rounded-md px-3 py-1.5 font-mono text-xs"
                     >
                       {technology}
                     </span>
